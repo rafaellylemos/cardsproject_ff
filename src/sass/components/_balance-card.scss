@@ -1,0 +1,40 @@
+.balance-card {
+    border: none;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: white;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        background-color: rgb(233, 129, 50);
+        padding: 15px;
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    &__header-icon {
+        width: 40px;
+        margin-right: 10px;
+    }
+
+    &__header-title {
+        display: flex;
+        align-items: center; //centralizar os dois elementos
+        margin-right: auto; // empurrar o elemento p totalmente pra direita
+
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    &__content {
+        background-color: withe;
+        padding: 15px;
+        overflow: hidden;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }   
+}
